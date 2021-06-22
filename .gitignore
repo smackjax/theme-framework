@@ -6,6 +6,10 @@
 !/_theme-src/*
 !/_theme-src/**
 
+!/_theme-src.verbose/
+!/_theme-src.verbose/*
+!/_theme-src.verbose/**
+
 !/_standalone-images/
 !/_standalone-images/*
 !/_standalone-images/**

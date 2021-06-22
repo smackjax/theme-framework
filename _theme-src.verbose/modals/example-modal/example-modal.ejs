@@ -1,0 +1,28 @@
+<% 
+    var images = require('../../images');
+%>
+
+<div id="about-modal" class="modal-overlay">
+    <div class="modal">
+        <div class="modal-header">
+            <div class="modal-title-wrapper">
+                Modal example title
+            </div>
+            <button id="close-example-modal-btn" class="close-modal-btn">&times;</button>
+        </div>
+        <div class="modal-content">
+            Modal example content
+        </div>
+    </div>
+
+    <div id="example-digitizer" class="modal-digitizer"></div>
+</div>
+
+<script>
+    var closeAboutModal = function(){ 
+        closeModal("about-modal"); 
+    };
+    document.getElementById("about-digitizer").addEventListener("click", closeAboutModal);
+    document.getElementById("close-example-modal-btn").addEventListener("click", closeAboutModal);
+
+</script>
